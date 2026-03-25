@@ -85,13 +85,13 @@ pip install -r requirements.txt
 **Train FM-UNet:**
 ```bash
 cd SkinLesionUNet_Light_FM
-python train.py --data_dir ../data/isic2016 --epochs 100
+python train.py --data_dir ../data/isic2016 --epochs 200
 ```
 
 **Train BiConvLSTM-UNet:**
 ```bash
 cd SkinLesionUNet_Light_ConvLSTM
-python train.py --data_dir ../data/isic2016 --epochs 100
+python train.py --data_dir ../data/isic2016 --epochs 200
 ```
 
 **Run inference:**
